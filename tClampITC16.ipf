@@ -1,9 +1,24 @@
 #pragma rtGlobals = 1		// Use modern global access method.
-#pragma version = 1.00	//by Yuichi Takeuchi 100921
-#pragma IgorVersion = 6.0	//Igor Pro 6.0 or later
-///////////////////////////////////////////////////////////////
-//This procedure needs the InstruTECH ITC-16 XOP from http://www.heka.com/download/itc_download.html#xops
-///////////////////////////////////////////////////////////////
+#pragma version = v0.0.0-alpha
+#pragma IgorVersion = 6.1	//Igor Pro 6.1 or later
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This procedure (tClamp16) offers a GUI for data acquisition via InstruTECH ITC-16.
+// The GUI is optimized for whole-cell patch-clamp recordings but can be used for other purposes.
+// The latest version is available at Github (https://github.com/yuichi-takeuchi/tClamp16).
+//
+// Prerequisites:
+// * Igor Pro 6.1 or later
+// * InstruTECH ITC-16 and a host interface
+// * ITC legacy XOP (ITC_X86_V##.XOP, ITC_X86_V## Help.ihf)
+//
+// Author:
+// Yuichi Takeuchi PhD
+// Department of Physiology, University of Szeged, Hungary
+// Email: yuichi-takeuchi@umin.net
+// 
+// Lisence:
+// MIT License
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Menu "tClamp16"
 	SubMenu "Oscillo Protocol"
