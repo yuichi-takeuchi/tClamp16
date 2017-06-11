@@ -18,7 +18,7 @@ Similar to that of tClamp18 (https://github.com/yuichi-takeuchi/tClamp18).
 * Click "Help" in tClamp16 menu.
 
 ## DOI
-
+[![DOI](https://zenodo.org/badge/93522745.svg)](https://zenodo.org/badge/latestdoi/93522745)
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning.
